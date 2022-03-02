@@ -1,8 +1,7 @@
-###############################
-# FreeOpenVPN.Org config file #
-# https://www.freeopenvpn.org #
-###############################
-dev tun
+{
+  "ovpn_file":[
+    {"id":0,"file":"
+     dev tun
 proto udp
 remote 198.13.36.179 1194
 cipher AES-128-CBC
@@ -96,4 +95,7 @@ va8q4QKBgQCEhLVeUfdwKvkZ94g/GFz731Z2hrdVhgMZaU/u6t0V95+YezPNCQZB
 wmE9Mmlbq1emDeROivjCfoGhR3kZXW1pTKlLh6ZMUQUOpptdXva8XxfoqQwa3enA
 M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 -----END RSA PRIVATE KEY-----
-</key>
+</key>},
+     
+    ]
+}
